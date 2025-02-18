@@ -3,248 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>강원도 2박 3일 여행</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-      }
-
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-
-      h1,
-      h2,
-      h3 {
-        text-align: center;
-        color: #333;
-      }
-
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-      }
-
-      h2 {
-        font-size: 2rem;
-        margin-bottom: 15px;
-        color: #444;
-      }
-
-      h3 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        color: #555;
-      }
-
-      .section {
-        margin-bottom: 40px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      li {
-        font-size: 1.2rem;
-        margin: 10px 0;
-        color: #444;
-      }
-
-      .tourist-spot li {
-        background-color: #e8f7ff;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 15px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      }
-
-      .food li {
-        background-color: #f9f9f9;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 15px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      }
-
-      .additional-food li {
-        background-color: #e7f5e3;
-        padding: 10px;
-        border-radius: 8px;
-        margin-bottom: 15px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      }
-
-      .note {
-        font-style: italic;
-        color: #555;
-        background-color: #fff9c4;
-        padding: 15px;
-        border-radius: 8px;
-        margin-top: 20px;
-      }
-
-      .warning {
-        color: #d32f2f;
-        background-color: #fce4ec;
-        padding: 15px;
-        border-radius: 8px;
-        margin-top: 20px;
-      }
-
-      .details {
-        margin-top: 10px;
-        font-size: 1rem;
-        color: #555;
-      }
-
-      .details span {
-        font-weight: bold;
-      }
-
-      .additional-info {
-        font-style: italic;
-        color: #777;
-        margin-top: 8px;
-      }
-    </style>
+    <title>강원도 2박 3일 여행 일정</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script
+      src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js"
+      data-color="#000000"
+      data-border-radius="small"
+    ></script>
   </head>
-  <body>
-    <div class="container">
-      <h1>강원도 2박 3일 여행 추천지 및 음식</h1>
-
-      <div class="section tourist-spot">
-        <h2>📍 관광지</h2>
-        <ul>
-          <li>
-            낙산 해수욕장 (양양)
-            <div class="details"><span>주소:</span> 양양군 낙산면</div>
-          </li>
-          <li>
-            대관령 (평창)
-            <div class="details">
-              <span>양떼목장 매표 시간:</span> 9AM ~ 4PM
-              <br />
-              <span>전화:</span> 033-335-1966
-              <br />
-              <span>주소:</span> 대관령면 대관령마루길 483-32
-              <div class="additional-info">
-                ❄️ 겨울철 눈이 많이 올 경우 방문이 어려울 수 있음.
-              </div>
+  <body class="bg-gray-50 font-[Noto Sans KR]">
+    <nav class="bg-white shadow">
+      <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex">
+            <div class="flex-shrink-0 flex items-center">
+              <img
+                class="h-8 w-auto"
+                src="https://ai-public.creatie.ai/gen_page/logo_placeholder.png"
+                alt="Logo"
+              />
             </div>
-          </li>
-          <li>
-            자작나무숲 (홍천)
-            <div class="details">
-              <span>운영 시간 (동절기):</span> 9AM ~ 2PM
-              <br />
-              <span>전화:</span> 033-461-9696
-              <br />
-              <span>주소:</span> 인제군 인제읍 원대리 763-4
-              <div class="additional-info">
-                🏔️ 등산 약 1시간 소모되며,
-                <span style="font-weight: bold"
-                  >아이젠 필수(입구에서 대여 가능)</span
-                >
-              </div>
-            </div>
-          </li>
-          <li>
-            설악산 케이블카 (강릉 근처)
-            <div class="details">
-              <span>전화:</span> 033-636-3600
-              <br />
-              <span>운행 중단:</span> 바람이 강하면 운행 중단될 수 있음
-              <div class="additional-info">케이블카 운영 여부 확인 필수</div>
-            </div>
-          </li>
-          <li>
-            강릉 하슬라 아트 월드
-            <div class="details">
-              <span>정보:</span> 현대미술과 다양한 전시를 즐길 수 있는 미술관
-            </div>
-          </li>
-          <li>
-            정동진 해맞이
-            <div class="details">
-              <span>정보:</span> 새해 일출 명소로 유명
-              <div class="additional-info">
-                > 일몰에도 이쁜지 확인하고 일몰 동선이 맞는지 체크 필요
-              </div>
-            </div>
-          </li>
-          <li>
-            영진 해변 (도깨비 촬영지)
-            <div class="details">
-              <span>정보:</span> 영화 '도깨비' 촬영지로 유명한 바다
-            </div>
-          </li>
-          <li>
-            미시령 옛길 1153 (설경)
-            <div class="details">
-              <span>소노캄 델피노 2번 주차장:</span> 설경을 즐기기 좋은 위치
-              <div class="additional-info">
-                주변 카페 유무 확인해야함. 이거 말곤 볼 건 없음
-              </div>
-            </div>
-          </li>
-          <li>
-            강릉 안반데기 (은하수, 설경)
-            <div class="details">
-              <span>정보:</span> 은하수 관찰과 설경을 함께 즐길 수 있는 명소
-              <div class="additional-info">은하수 스팟 디테일하게 찾아야함</div>
-            </div>
-          </li>
-          <li>
-            원주 판대 아이스파크
-            <div class="details">
-              <span>정보:</span> 빙벽 야무지게 이쁜 곳
-              <div class="additional-info">
-                원주는 강원도 아래쪽에 있어서 첫날 가는 길이나 돌아오는 날에
-                들르는 거 말곤 쉽지 않음
-              </div>
-            </div>
-          </li>
-          <li>
-            속초 해수욕장 (눈 + 바다)
-            <div class="details">
-              <span>정보:</span> 겨울에도 멋진 해변을 즐길 수 있는 속초 해수욕장
-            </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
-
-      <div class="section food">
-        <h2>🍽 음식</h2>
-        <ul>
-          <li>막국수 (강릉, 속초)</li>
-          <li>순두부 짬뽕 (강릉)</li>
-          <li>오징어 순대 (속초)</li>
-        </ul>
+    </nav>
+    <main class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="bg-white rounded-lg shadow p-6 mb-8">
+        <div class="flex items-center mb-6">
+          <h1 class="text-2xl font-bold text-gray-900">
+            강원도 2박 3일 여행 일정
+          </h1>
+        </div>
+        <div class="border-b border-gray-200 mb-6">
+          <nav class="-mb-px flex space-x-8">
+            <button
+              id="day1Btn"
+              class="border-black text-black px-1 pb-4 border-b-2 font-medium text-sm"
+            >
+              1일차
+            </button>
+            <button
+              id="day2Btn"
+              class="text-gray-500 hover:text-gray-700 px-1 pb-4 border-b-2 border-transparent font-medium text-sm"
+            >
+              2일차
+            </button>
+            <button
+              id="day3Btn"
+              class="text-gray-500 hover:text-gray-700 px-1 pb-4 border-b-2 border-transparent font-medium text-sm"
+            >
+              3일차
+            </button>
+          </nav>
+        </div>
+        <div id="itinerary" class="space-y-8"></div>
       </div>
-
-      <div class="section additional-food">
-        <h2>🍖 추가 추천 음식</h2>
-        <ul>
-          <li>홍천 한우</li>
-          <li>인제 곰배기</li>
-        </ul>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-lg font-medium text-gray-900 mb-4">추가 여행지 추천</h2>
+        <div id="extraDestinations" class="grid grid-cols-3 gap-4"></div>
       </div>
-
-      <div class="warning">
-        <h3>⚠️ 주의사항</h3>
-        <p>
-          ❄️ 폭설이 새벽간에 내린 경우, 제설이 되어 있지 않아 새벽 일정은 패스할
-          수 있음. (예: 은하수 구경)
-        </p>
+    </main>
+    <footer class="bg-gray-800 mt-12">
+      <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="text-center text-gray-400 text-sm">
+          © 2024 강원도 여행 플래너. All rights reserved.
+        </div>
       </div>
-    </div>
+    </footer>
+
+    <script src="travel-itinerary.js"></script>
   </body>
 </html>
