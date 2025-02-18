@@ -44,9 +44,9 @@ const itineraryData1 = [
     title: "케이블카 탑승",
     location: null,
     time: "17:00 ~ 18:00",
-    hours: null,
-    entryFee: "인당 15000원",
-    specialNotes: ["주차비: 6000원"],
+    hours: "17:00 막차",
+    entryFee: "15000원",
+    specialNotes: ["주차비: 6000원", "운영 유무 확인: https://www.sorakcablecar.co.kr/"],
   },
   {
     title: "속초 숙소 도착",
@@ -74,29 +74,29 @@ const itineraryData1 = [
   },
 ];
 
-const itineraryData2 = [
-  {
-    title: "평창 휘닉스파크",
-    location: "강원도 평창군 봉평면 휘닉스파크로 174",
-    time: "09:00 - 12:00",
-    hours: "09:00 - 17:00",
-    entryFee: "20,000원",
-    specialNotes: ["스키장 운영", "주차 가능"],
-  },
-  // 2일차 일정 더 추가
-];
+// const itineraryData2 = [
+//   {
+//     title: "평창 휘닉스파크",
+//     location: "강원도 평창군 봉평면 휘닉스파크로 174",
+//     time: "09:00 - 12:00",
+//     hours: "09:00 - 17:00",
+//     entryFee: "20,000원",
+//     specialNotes: ["스키장 운영", "주차 가능"],
+//   },
+//   // 2일차 일정 더 추가
+// ];
 
-const itineraryData3 = [
-  {
-    title: "홍천 팔봉산",
-    location: "강원도 홍천군 북방면 팔봉산로 252",
-    time: "09:00 - 12:00",
-    hours: "08:00 - 18:00",
-    entryFee: "무료",
-    specialNotes: ["주차 가능", "산책로 있음"],
-  },
-  // 3일차 일정 더 추가
-];
+// const itineraryData3 = [
+//   {
+//     title: "홍천 팔봉산",
+//     location: "강원도 홍천군 북방면 팔봉산로 252",
+//     time: "09:00 - 12:00",
+//     hours: "08:00 - 18:00",
+//     entryFee: "무료",
+//     specialNotes: ["주차 가능", "산책로 있음"],
+//   },
+//   // 3일차 일정 더 추가
+// ];
 
 const extraDestinations = [
   {
