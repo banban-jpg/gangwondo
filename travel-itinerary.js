@@ -82,12 +82,12 @@ const itineraryData2 = [
 // 1일차, 2일차, 3일차 일정 데이터
 const itineraryData3 = [
   {
-    title: "기상 후 출발",
+    title: "기상 후 안반데기로 출발",
     location: null,
-    time: "00:00 ~ 06:00",
+    time: "00:00 ~ 05:30",
     hours: null,
-    entryFee: "확인 필요",
-    specialNotes: "아바이마을 신다신 오징어순대 등 유명한곳 다 맛 똑같음",
+    entryFee: null,
+    specialNotes: "안반데기",
   },
   
 ];
