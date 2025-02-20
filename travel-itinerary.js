@@ -38,7 +38,7 @@ const itineraryData1 = [
     time: "16:00 ~ 17:30",
     hours: null,
     entryFee: null,
-    specialNotes: "인제ic타고 갈 것",
+    specialNotes: "[인제ic타고 갈 것]",
   },
   {
     title: "속초 숙소 도착",
