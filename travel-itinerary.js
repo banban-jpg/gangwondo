@@ -69,14 +69,7 @@ const itineraryData1 = [
 
 // 1일차, 2일차, 3일차 일정 데이터
 const itineraryData2 = [
-  // {
-  //   title: "아바이마을 오징어순대",
-  //   location: null,
-  //   time: "기상 시간에 맞춰서 ~ 06:00",
-  //   hours: null,
-  //   entryFee: "확인 필요",
-  //   specialNotes: "아바이마을 신다신 오징어순대 등 유명한곳 다 맛 똑같음",
-  // },
+
   {
     title: "체크아웃",
     location: null,
@@ -104,7 +97,7 @@ const itineraryData3 = [
     time: "00:00 ~ 05:00",
     hours: null,
     entryFee: null,
-    specialNotes: ["안반데기"],
+    specialNotes: ["안반데기 일출 07시"],
   },
   
 ];
