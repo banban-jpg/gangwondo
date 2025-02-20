@@ -1,9 +1,9 @@
 // 1일차, 2일차, 3일차 일정 데이터
 const itineraryData1 = [
   {
-    title: "얘 태우고 쟤 태우고 얘 태우기",
+    title: "화명역에서 출발",
     location: null,
-    time: "05:00 ~ 06:00",
+    time: "05:50 ~ 06:30",
     hours: null,
     entryFee: null,
     specialNotes: null,
@@ -11,7 +11,7 @@ const itineraryData1 = [
   {
     title: "고속도로 탑승 (5시간 + 휴게소 1시간)",
     location: null,
-    time: "06:00 ~ 12:00",
+    time: "06:30 ~ 12:00",
     hours: null,
     entryFee: null,
     specialNotes: null,
