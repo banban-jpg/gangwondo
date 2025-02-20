@@ -166,7 +166,7 @@ const itineraryData2 = [
   },
   {
     title: "숙소로 이동",
-    location: "더강릉 포레 머시기",
+    location: "강릉 더강릉 포레 펜션",
     time: "19:00 ~ 19:30",
     hours: null,
     entryFee: null,
@@ -202,7 +202,7 @@ const itineraryData3 = [
   },
   {
     title: "안반데기로 이동",
-    location: "강원 강릉시 왕산면 대기리",
+    location: "와우 안반데기",
     time: "04:00 ~ 05:00",
     hours: null,
     entryFee: null,
@@ -210,7 +210,7 @@ const itineraryData3 = [
   },
   {
     title: "안반데기 별, 일출 구경",
-    location: "안반데기",
+    location: "와우 안반데기",
     time: "05:00 ~ 07:30",
     hours: null,
     entryFee: null,
@@ -218,7 +218,7 @@ const itineraryData3 = [
   },
   {
     title: "숙소 복귀",
-    location: "강릉 숙소",
+    location: "강릉 더강릉 포레 펜션",
     time: "07:30 ~ 08:30",
     hours: null,
     entryFee: null,
