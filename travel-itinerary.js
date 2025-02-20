@@ -38,16 +38,17 @@ const itineraryData1 = [
     time: "16:00 ~ 17:30",
     hours: null,
     entryFee: null,
-    specialNotes: "[인제ic타고 갈 것]",
+    specialNotes: ["인제IC로 이동 예정"],
   },
   {
-    title: "속초 숙소 도착",
+    title: "속초 숙소 도착 후 휴식",
     location: "강원 속초시 조양동 1480-162 속초 서현이네펜션",
-    time: "17:30 ~ 18:30",
+    time: "17:00 ~ 18:30",
     hours: null,
     entryFee: null,
-    specialNotes: ["체크아웃: 10:00AM"],
+    specialNotes: ["저녁 어디서 먹을지 정해야함"],
   },
+
   {
     title: "맛집, 바다구경, 시장구경, 카페 등",
     location: null,
@@ -66,31 +67,47 @@ const itineraryData1 = [
   },
 ];
 
-// // 1일차, 2일차, 3일차 일정 데이터
-// const itineraryData2 = [
-//   {
-//     title: "아바이마을 오징어순대",
-//     location: null,
-//     time: "기상 시간에 맞춰서 ~ 06:00",
-//     hours: null,
-//     entryFee: "확인 필요",
-//     specialNotes: "아바이마을 신다신 오징어순대 등 유명한곳 다 맛 똑같음",
-//   },
+// 1일차, 2일차, 3일차 일정 데이터
+const itineraryData2 = [
+  // {
+  //   title: "아바이마을 오징어순대",
+  //   location: null,
+  //   time: "기상 시간에 맞춰서 ~ 06:00",
+  //   hours: null,
+  //   entryFee: "확인 필요",
+  //   specialNotes: "아바이마을 신다신 오징어순대 등 유명한곳 다 맛 똑같음",
+  // },
+  {
+    title: "체크아웃",
+    location: null,
+    time: "09:00 ~ 10:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "아바이마을 오징어순대집",
+    location: null,
+    time: "10:00 ~ 11:00",
+    hours: null,
+    entryFee: "",
+    specialNotes: ["아바이마을 신다신가게 등 유명한곳 다 맛있음"],
+  },
   
-// ];
+];
 
 // // 1일차, 2일차, 3일차 일정 데이터
-// const itineraryData3 = [
-//   {
-//     title: "기상 후 안반데기로 출발",
-//     location: null,
-//     time: "00:00 ~ 05:30",
-//     hours: null,
-//     entryFee: null,
-//     specialNotes: "안반데기",
-//   },
+const itineraryData3 = [
+  {
+    title: "기상 후 안반데기로 출발",
+    location: null,
+    time: "00:00 ~ 05:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: ["안반데기"],
+  },
   
-// ];
+];
 const extraDestinations = [
   {
     name: "경포해변",
