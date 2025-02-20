@@ -66,29 +66,19 @@ const itineraryData1 = [
   },
 ];
 
-// const itineraryData2 = [
-//   {
-//     title: "평창 휘닉스파크",
-//     location: "강원도 평창군 봉평면 휘닉스파크로 174",
-//     time: "09:00 - 12:00",
-//     hours: "09:00 - 17:00",
-//     entryFee: "20,000원",
-//     specialNotes: ["스키장 운영", "주차 가능"],
-//   },
-//   // 2일차 일정 더 추가
-// ];
+// 1일차, 2일차, 3일차 일정 데이터
+const itineraryData2 = [
+  {
+    title: "아바이마을 오징어순대 ",
+    location: null,
+    time: "기상 시간에 맞춰서 ~ 06:00",
+    hours: null,
+    entryFee: "확인 필요",
+    specialNotes: "아바이마을 신다신 오징어순대 등 유명한곳 다 맛 똑같음",
+  },
+  
+];
 
-// const itineraryData3 = [
-//   {
-//     title: "홍천 팔봉산",
-//     location: "강원도 홍천군 북방면 팔봉산로 252",
-//     time: "09:00 - 12:00",
-//     hours: "08:00 - 18:00",
-//     entryFee: "무료",
-//     specialNotes: ["주차 가능", "산책로 있음"],
-//   },
-//   // 3일차 일정 더 추가
-// ];
 
 const extraDestinations = [
   {
