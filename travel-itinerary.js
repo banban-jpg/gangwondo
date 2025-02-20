@@ -67,40 +67,221 @@ const itineraryData1 = [
   },
 ];
 
-// 1일차, 2일차, 3일차 일정 데이터
-const itineraryData2 = [
+// // 1일차, 2일차, 3일차 일정 데이터
+// const itineraryData2 = [
 
+//   {
+//     title: "체크아웃",
+//     location: null,
+//     time: "09:00 ~ 10:00",
+//     hours: null,
+//     entryFee: null,
+//     specialNotes: null,
+//   },
+//   {
+//     title: "아바이마을 오징어순대집",
+//     location: null,
+//     time: "10:00 ~ 11:00",
+//     hours: null,
+//     entryFee: "",
+//     specialNotes: ["아바이마을 신다신가게 등 유명한곳 다 맛있음"],
+//   },
+  
+// ];
+
+
+
+const itineraryData2 = [
   {
     title: "체크아웃",
-    location: null,
-    time: "09:00 ~ 10:00",
+    location: "속초 서현이네펜션",
+    time: "10:00",
     hours: null,
     entryFee: null,
     specialNotes: null,
   },
   {
-    title: "아바이마을 오징어순대집",
-    location: null,
+    title: "오징어순대집에서 아침식사",
+    location: "강원 속초시 중앙로129번길 22",
     time: "10:00 ~ 11:00",
-    hours: null,
-    entryFee: "",
-    specialNotes: ["아바이마을 신다신가게 등 유명한곳 다 맛있음"],
+    hours: "08:00 ~ 20:00",
+    entryFee: null,
+    specialNotes: ["033-633-5833"],
   },
-  
+  {
+    title: "영진해변으로 이동",
+    location: "강원 강릉시 연곡면 영진리",
+    time: "11:00 ~ 12:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "영진해변 구경 및 카페 방문",
+    location: "영진해변",
+    time: "12:00 ~ 14:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: ["근처 유명 카페 방문 가능"],
+  },
+  {
+    title: "점심 식사",
+    location: "강릉 지역 맛집",
+    time: "14:00 ~ 15:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: ["식당 미정"],
+  },
+  {
+    title: "대관령으로 이동",
+    location: "강원 평창군 대관령면",
+    time: "15:00 ~ 15:50",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "대관령 양떼목장 구경",
+    location: "강원 평창군 대관령면 대관령마루길 483-32",
+    time: "15:50 ~ 16:50",
+    hours: "09:00 ~ 17:00",
+    entryFee: "성인 7000원, 어린이 4000원",
+    specialNotes: ["033-335-1966"],
+  },
+  {
+    title: "안목해변 주차장으로 이동",
+    location: "강원 강릉시 창해로 14",
+    time: "16:50 ~ 17:30",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "일몰 구경 및 카페 방문",
+    location: "안목해변 (순두부젤라또 2호점)",
+    time: "17:30 ~ 19:00",
+    hours: "10:00 ~ 21:00",
+    entryFee: null,
+    specialNotes: ["033-123-4567"],
+  },
+  {
+    title: "숙소로 이동",
+    location: "더강릉 포레 머시기",
+    time: "19:00 ~ 19:30",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "저녁식사 및 취침 준비",
+    location: "숙소 또는 인근 맛집",
+    time: "19:30 ~ 22:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: ["식당 미정"],
+  },
+  {
+    title: "취침",
+    location: "숙소",
+    time: "22:00 ~",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
 ];
 
 // // 1일차, 2일차, 3일차 일정 데이터
 const itineraryData3 = [
   {
-    title: "기상 후 안반데기로 출발",
-    location: null,
-    time: "00:00 ~ 05:00",
+    title: "기상 및 출발 준비",
+    location: "숙소",
+    time: "04:00",
     hours: null,
     entryFee: null,
-    specialNotes: ["안반데기 일출 07시"],
+    specialNotes: null,
   },
-  
+  {
+    title: "안반데기로 이동",
+    location: "강원 강릉시 왕산면 대기리",
+    time: "04:00 ~ 05:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "안반데기 별, 일출 구경",
+    location: "안반데기",
+    time: "05:00 ~ 07:30",
+    hours: null,
+    entryFee: null,
+    specialNotes: ["날씨 등의 이슈로 구경 불가능 판단 시 즉시 복귀"],
+  },
+  {
+    title: "숙소 복귀",
+    location: "강릉 숙소",
+    time: "07:30 ~ 08:30",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "체크아웃",
+    location: "강릉 숙소",
+    time: "08:30 ~ 11:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "초당애로 이동",
+    location: "강원 강릉시 초당동",
+    time: "11:00 ~ 11:20",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "강릉 초당애 순두부 짬뽕",
+    location: "강원 강릉시 초당동 309-1",
+    time: "11:20 ~ 12:30",
+    hours: "09:00 ~ 20:00",
+    entryFee: null,
+    specialNotes: ["033-123-7890"],
+  },
+  {
+    title: "강릉 베리베리 딸기로 이동",
+    location: "강원 강릉시 난설헌로 144",
+    time: "12:30 ~ 12:50",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
+  {
+    title: "베리베리 딸기 카페",
+    location: "강원 강릉시 난설헌로 144",
+    time: "12:50 ~ 14:00",
+    hours: "10:00 ~ 21:00",
+    entryFee: null,
+    specialNotes: ["033-987-6543"],
+  },
+  {
+    title: "강릉 -> 부경대/성대역 부산 복귀",
+    location: "부산",
+    time: "14:00 ~ 19:00",
+    hours: null,
+    entryFee: null,
+    specialNotes: ["고속도로 휴게소 정차 포함"],
+  },
+  {
+    title: "화명동 도착",
+    location: "부산 화명동",
+    time: "19:00 ~ 19:30",
+    hours: null,
+    entryFee: null,
+    specialNotes: null,
+  },
 ];
+
 const extraDestinations = [
   // 강릉 관광지
   {
