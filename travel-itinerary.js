@@ -2,7 +2,7 @@
 const itineraryData1 = [
   {
     title: "화명역에서 출발",
-    location: null,
+    location: "경성대/부경대역 2번출구",
     time: "05:50 ~ 06:30",
     hours: null,
     entryFee: null,
